@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/kickstart.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/kickstart.js"></script>
+
+    <title>Ranchers Roast Beef</title>
+
+</head>
+<body>
+    <header id="HeadLine">
+        <h1 style="color:#ffffff">Rancher's Roast Beef</h1>
+        <ul class="menu">
+            <li><a href="Ranchershtml.html">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li>
+                <a href="">Menu</a>
+                <ul>
+                    <li><a href="RanchersMenuHtml.html">Breakfast</a></li>
+                    <li><a href="RanchersLunchMenu.html">Lunch/Dinner</a></li>
+                </ul>
+            </li>
+            <li class="current"><a href="Rancherscontacthtml.html">Contact Us</a></li>
+            <li>
+                <a href="">Follow Us</a>
+                <ul>
+                    <li><a href="https://www.facebook.com/Ranchers-Roast-Beef-10150112644345495/"><i class="fa fa-facebook-square" aria-hidden="true"></i>  Facebook</a></li>
+                    <li><a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+    <h1 class="center">Contact Us</h1>
+
+    <div class="center">
+
+    <h5>Wasington Court House</h5>
+    <address>
+        501 S. Elm Street<br />
+        Washington Court House, OH 43160<br />
+        Phone #:740-335-3454<br />
+    </address>
+
+    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:350px;width:600px;'>
+        <div id='gmap_canvas' style='height:350px;width:600px;'></div>
+        <style>
+            #gmap_canvas img {
+                max-width: none !important;
+                background: none !important;
+            }
+        </style>
+    </div>
+    <script type='text/javascript'>function init_map() {
+        var myOptions = {
+            zoom: 17, center: new google.maps.LatLng(39.542518, -83.426489), mapTypeId: google.maps.MapTypeId.ROADMAP
+        }; map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions); marker = new google.maps.Marker({
+            map: map, position: new google.maps.LatLng(39.542518, -83.426489)
+        }); infowindow = new google.maps.InfoWindow({ content: '<strong>Ranchers Roast Beef</strong><br>501 S. Elm Street Washington Court House, Ohio, United States<br>' }); google.maps.event.addListener(marker, 'click', function () { infowindow.open(map, marker); }); infowindow.open(map, marker);
+    } google.maps.event.addDomListener(window, 'load', init_map);</script>
+   
+    <h5>Greenfield</h5>
+    <address>
+        414 Jefferson Street<br />
+        Greenfield, OH 43123<br />
+        Phone #:937-803-0061
+    </address>
+
+    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:350px;width:600px;'>
+        <div id='gmap_canvas2' style='height:350px;width:600px;'></div>
+        <style>
+            #gmap_canvas img {
+                max-width: none !important;
+                background: none !important;
+            }
+        </style>
+    </div>
+    <script type='text/javascript'>function init_map() { var myOptions = { zoom: 17, center: new google.maps.LatLng(39.3508766, -83.38535990000003), mapTypeId: google.maps.MapTypeId.ROADMAP }; map = new google.maps.Map(document.getElementById('gmap_canvas2'), myOptions); marker = new google.maps.Marker({ map: map, position: new google.maps.LatLng(39.3508766, -83.38535990000003) }); infowindow = new google.maps.InfoWindow({ content: '<strong>Ranchers Roast Beef</strong><br>414 Jefferson Street Greenfield, Ohio, United States<br>' }); google.maps.event.addListener(marker, 'click', function () { infowindow.open(map, marker); }); infowindow.open(map, marker); } google.maps.event.addDomListener(window, 'load', init_map);</script>
+
+
+
+    <h5>New Carlisle</h5>
+    <address>
+        2353 S Dayton-Lakeview Rd<br />
+        New Carlisle, OH 45344<br />
+        Phone #:937-849-0028
+    </address>
+
+    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:350px;width:600px;'>
+        <div id='gmap_canvas3' style='height:350px;width:600px;'></div>
+        <style>
+            #gmap_canvas img {
+                max-width: none !important;
+                background: none !important;
+            }
+        </style>
+    </div>
+    <script type='text/javascript'>function init_map() { var myOptions = { zoom: 14, center: new google.maps.LatLng(39.88915456727353, -84.04572680209958), mapTypeId: google.maps.MapTypeId.ROADMAP }; map = new google.maps.Map(document.getElementById('gmap_canvas3'), myOptions); marker = new google.maps.Marker({ map: map, position: new google.maps.LatLng(39.88915456727353, -84.04572680209958) }); infowindow = new google.maps.InfoWindow({ content: '<strong>Ranchers Roast Beef</strong><br>2353 S Dayton-Lakeview Rd  New Carlisle, Ohio, United States<br>' }); google.maps.event.addListener(marker, 'click', function () { infowindow.open(map, marker); }); infowindow.open(map, marker); } google.maps.event.addDomListener(window, 'load', init_map);</script>
+    </div>
+</body>
+
+</html>
